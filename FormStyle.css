@@ -1,0 +1,157 @@
+@import url("https://fonts.cdnfonts.com/css/brush-lettering-one");
+body {
+  background: #f2a7cd;
+  background: radial-gradient(
+    circle,
+    rgb(248, 212, 230) 60%,
+    rgb(199, 228, 249) 100%
+  );
+  font-family: "Brush Lettering One", sans-serif;
+}
+
+* {
+  font-family: "Brush Lettering One", sans-serif;
+}
+legend {
+  font-size: 2em;
+  font-family: "Brush Lettering One", sans-serif;
+  color: rgb(96, 66, 123);
+}
+h1 {
+  font-size: 3em;
+  font-family: "Brush Lettering One", sans-serif;
+  color: rgb(137, 21, 85);
+}
+label {
+  font-size: 1em;
+}
+form {
+  width: 500px;
+}
+fieldset {
+  border: 3px solid rgb(163, 56, 92);
+  border-radius: 30px;
+
+}
+
+input {
+  border: 2px solid rgb(96, 66, 123);
+}
+input:required {
+  border: 2px dotted rgb(96, 66, 123);
+}
+input:read-only {
+  background-color: rgb(167, 246, 246);
+  color: rgb(106, 28, 28);
+}
+
+input[type="radio"]:checked {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+/* input[type="radio"]:checked + label {
+  color: rgb(156, 75, 75);
+} */
+
+input[type="submit"] {
+  border: 8px solid rgb(163, 56, 92);
+  border-radius: 15px;
+}
+
+input[type="reset"] {
+  border: 8px solid rgb(96, 66, 123);
+  border-radius: 15px;
+}
+
+select {
+  background-color: rgb(163, 56, 92);
+  color: aqua;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input:focus {
+  background-color: #f2a7cd;
+}
+
+input[type="text"] + span {
+  display: none;
+}
+
+input[type="text"]:hover + span {
+  display: inline;
+  border: 4px solid rgb(163, 56, 92);
+}
+
+input[type="email"] + span {
+  display: none;
+}
+
+input[type="email"]:hover + span {
+  display: inline;
+  border: 4px solid rgb(163, 56, 92);
+}
+
+input[type="tel"] + span {
+  display: none;
+}
+
+input[type="tel"]:hover + span {
+  display: inline;
+  border: 4px solid rgb(163, 56, 92);
+}
+
+input[type="Password"] + span {
+  display: none;
+}
+
+input[type="Password"]:hover + span {
+  display: inline;
+  border: 4px solid rgb(163, 56, 92);
+}
+img {
+  display: none;
+}
+input[type="email"]:focus:valid ~ img#valid {
+  display: inline;
+  height: 30px;
+  width: 30px;
+}
+
+input[type="email"]:focus:invalid ~ img#invalid {
+  display: inline;
+  height: 30px;
+  width: 30px;
+}
+
+#head:hover{
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+legend:hover{
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+fieldset:hover {
+  box-shadow: 0 0 20px 5px aqua,
+              0 0 30px 10px rgba(158, 158, 242, 0.5),
+              0 0 40px 15px rgba(128, 231, 251, 0.4);
+}
